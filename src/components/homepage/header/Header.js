@@ -9,6 +9,7 @@ import Group5 from '../../../assets/images/Group5.png'
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import {RiArrowRightSFill} from 'react-icons/ri';
+import Group6 from '../../../assets/images/Group6.png'
 
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
     <div>
 
     <div className='headerpage  '>
-            <div className='right '>
+            <div className='right  column'>
             <small className="ASD">___ثقتك بنا تهمنا</small>
 
             <h1 className='asd'>نحن نأتى بك من الرؤية 
@@ -42,27 +43,26 @@ const Header = () => {
                 </small>
             </a>
             </div>
-            
         
-           
-        
-        
-    <div className='left'>
+    <div className='left column '>
+
      
-     
-     
-    
-     <img src={Group5} className="mainimg"/>
-     <img src={Rectangle4} className="img2"/>
+     <img src={Rectangle1} className="img1"/>
+     <img src={Rectangle2} className="img4"/>
      <img src={Group3} className="img3"/>
-     <img src={Rectangle2} className="mainimg"/>
-     <img src={Rectangle1} className="mainimg"/>
+     <img src={Rectangle4} className="img2"/>
+     <img src={Group5} className="img5"/>
+     <div className="joinC">
+        <h6 className="p-2">انضم الان الى عملائنا المميزون</h6>
+        <img src={Group6} className="img6"/>
      </div>
-     </div>
-      <Button className="arrowicon"><RiArrowDropDownLine/></Button>
+     
+</div>
+</div>
+  <Button className="arrowicon"><RiArrowDropDownLine/></Button>
     
      
-     </div>
+</div>
   )
 }
 
