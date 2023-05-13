@@ -1,0 +1,26 @@
+.navbar-brand{
+    margin-left: 40px !important;
+}
+.nav-link{
+    margin-right: 32px !important;
+}
+.btn1{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.btnn{
+    font-size: 16px !important;
+  background: #fff !important;
+  border-radius:var(--borderR)!important;
+  border-color:var(--borderC) !important;
+  color: var(--borderC) !important;
+  width: 146px;
+}
+.btnn:hover {
+ color:#fff !important;
+ background:var( --maincolor) !important;
+
+}
+.changecolor{
+    color: var(--maincolor) !important;
+}
