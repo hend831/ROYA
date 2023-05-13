@@ -1,8 +1,12 @@
-import Home from './components/homepage/Home'
+import Navbarr from './components/homepage/navbar/Navbarr';
+
+
 function App() {
   return (
     <>
-      <Home/>
+    <Navbarr/>
+      
+      
     </>
   );
 }

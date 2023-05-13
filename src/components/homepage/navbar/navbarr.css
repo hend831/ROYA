@@ -25,7 +25,8 @@
     background: var(--maincolor) !important;
   }
   
-  .changecolor {
-    color: var(--maincolor) !important;
-  }
   
+  
+  nav a.active{
+    color:var(--maincolor) !important;
+  }
