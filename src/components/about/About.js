@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.css'
+import Firstpage from '../firstpage/Firstpage';
 const About = () => {
   return (
     <div>
-      aboutpage
+      <Firstpage title="من نحن"  />
     </div>
+
   )
 }
 

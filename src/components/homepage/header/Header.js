@@ -9,7 +9,8 @@ import Group5 from '../../../assets/images/Group5.png'
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import {RiArrowRightSFill} from 'react-icons/ri';
-import Group6 from '../../../assets/images/Group6.png'
+import Group6 from '../../../assets/images/Group6.png';
+import Allcards from '../../cards/Allcards';
 
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
 
     <div>
 
-    <div className='headerpage  '>
+    <div className='headerpage hdr '>
             <div className='right  column'>
             <small className="ASD">___ثقتك بنا تهمنا</small>
 
@@ -59,7 +60,8 @@ const Header = () => {
      
 </div>
 </div>
-  <Button className="arrowicon"><RiArrowDropDownLine/></Button>
+  <Button className="arrowicon "><RiArrowDropDownLine/></Button>
+  <Allcards/>
     
      
 </div>

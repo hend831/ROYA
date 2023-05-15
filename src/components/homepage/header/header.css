@@ -4,6 +4,10 @@
    
   
 }
+.hdr{
+  background-image:linear-gradient(to left ,#5FAD511A,#FFFFFF33);
+ 
+}
 .left {
  width: 44% !important;
  background-image: url(../../../assets/images/mainimg.png)  !important;
@@ -40,6 +44,7 @@
   border-color:var(--maincolor) !important ;
   margin-top: -46px;
   margin-right: 50% !important;
+  margin-bottom: 0 !important;
 }
 
 .img2{

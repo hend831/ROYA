@@ -7,14 +7,15 @@ import {BrowserRouter as Router , Routes ,Route ,NavLink }
 from 'react-router-dom';
 import About from '../../about/About'
 import Header from '../header/Header'
+import Services from '../../Services/Services'
 
 
 const Navbarr = () => {
   
   return (
     <Router>
-    <div>
-      <Navbar expand="lg">
+    <div >
+      <Navbar expand="lg" className="naav">
         <Container>
           <Navbar.Brand href="#home">
             <img src={Logo} alt="logo" title="logo" />
@@ -30,7 +31,7 @@ const Navbarr = () => {
                 الصفحة الرئيسية
               </Nav.Link>
               <Nav.Link as ={NavLink} to ={"/about"} >من نحن</Nav.Link>
-              <Nav.Link as ={NavLink} to ={"/home"}>خدمتنا</Nav.Link>
+              <Nav.Link as ={NavLink} to ={"/services"}>خدمتنا</Nav.Link>
               <Nav.Link as ={NavLink} to ={"/home"}>منتجات اوركا</Nav.Link>
               <Nav.Link as ={NavLink} to ={"/home"}>أعمالنا</Nav.Link>
               <Nav.Link as ={NavLink} to ={"/home"}>تواصل معنا</Nav.Link>
@@ -54,6 +55,7 @@ const Navbarr = () => {
         <Route path='/about' element={<About/>}/>
         
         <Route path='/' element={<Header/>}/>
+        <Route path='/services' element={<Services/>}/>
           
         
         
