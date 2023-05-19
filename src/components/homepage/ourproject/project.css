@@ -1,0 +1,56 @@
+.imgdiv {
+  width: 25%;
+  height: 300px;
+
+  border-color: #000;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  border-radius: 8px;
+  background-image: url(../../../assets/images/image1.png);
+
+  background-size: cover;
+}
+.vtitle {
+  visibility: hidden;
+}
+.imgdiv1 {
+  background-image: url(../../../assets/images/image2.png);
+}
+.imgdiv2 {
+  background-image: url(../../../assets/images/image3.png);
+}
+.imgdiv3 {
+  background-image: url(../../../assets/images/image4.png);
+}
+
+.div1 {
+  background-image: url(../../../assets/images/img1.png);
+}
+.div2 {
+  background-image: url(../../../assets/images/img2.png);
+}
+.div3 {
+  background-image: url(../../../assets/images/img3.png);
+}
+.div4 {
+  background-image: url(../../../assets/images/img4.png);
+}
+.imgdiv:hover {
+  transform: translate(0, -50px);
+  z-index: 2;
+  height: 350px;
+  transition: transform 2s;
+}
+
+.imgdiv:hover .vtitle {
+  visibility: visible;
+}
+
+.imicdd {
+  background: var(--borderC) !important;
+}
+.title {
+  margin-block-start: 45%;
+  padding-right: 25px;
+  color: var(--borderC);
+}

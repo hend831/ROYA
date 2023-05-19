@@ -1,15 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-:root{
-  --maincolor:#5FAD51;
-  --borderR:  35px ;
-  --borderC: #094E81;
+:root {
+  --maincolor: #5fad51;
+  --borderR: 35px;
+  --borderC: #094e81;
+}
+.ASD {
+  color: #5fad51;
+}
+.imicd {
+  background: #e9ecef;
+
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.btn3 {
+  background: var(--borderC) !important;
+  color: #fff !important;
+}
+.arrowbtn {
+  border-radius: 50% !important;
+  margin-right: 30px;
+  margin-left: 12px;
+  background: var(--maincolor) !important;
+  border-color: var(--maincolor) !important ;
+  color: #fff;
 }

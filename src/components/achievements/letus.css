@@ -1,0 +1,18 @@
+.bgc {
+  background-image: url(../../assets/images/Groupp.png);
+  height: 50vh;
+  color: #fff;
+  margin-top: 38vh !important;
+  border-radius: 8px;
+}
+.bn {
+  border-radius: 15px;
+  width: 29% !important;
+  height: 38px !important;
+  border-style: none;
+  color: var(--maincolor);
+  margin-top: 12px;
+}
+.imag {
+  transform: translateY(-40%);
+}

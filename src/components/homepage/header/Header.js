@@ -11,6 +11,7 @@ import { AiOutlineArrowLeft } from 'react-icons/ai';
 import {RiArrowRightSFill} from 'react-icons/ri';
 import Group6 from '../../../assets/images/Group6.png';
 import Allcards from '../../cards/Allcards';
+import Aboutus from '../../about/Aboutus';
 
 
 const Header = () => {
@@ -62,6 +63,7 @@ const Header = () => {
 </div>
   <Button className="arrowicon "><RiArrowDropDownLine/></Button>
   <Allcards/>
+  <Aboutus/>
     
      
 </div>

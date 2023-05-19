@@ -1,0 +1,12 @@
+.achive {
+  width: 24%;
+
+  border-radius: 5px;
+  box-shadow: 5px 10px 5px 10px #ddd;
+
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.lon {
+  color: var(--borderC);
+}

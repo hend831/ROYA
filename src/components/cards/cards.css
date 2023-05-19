@@ -1,33 +1,21 @@
-/*
-.imicd {
-    background: rgba(255, 255, 255, .2);
-   
-    
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    
-}*/
-
-/*
-.card{
-    background: var(--maincolor) !important;
-    color:#fff ;
-}*/
-
-.imicd{
-    background:  #e9ecef;
-   
-    
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    
+.card {
+  box-shadow: 5px 10px 5px 10px #ddd;
 }
 
-.imgicon{
-    width: 48px;
-    height: 45px;
-    
+.card:hover {
+  background: var(--maincolor) !important;
+  color: #fff;
+}
 
+.imicd {
+  background: #e9ecef;
+
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+
+.imgicon {
+  width: 48px;
+  height: 45px;
 }
